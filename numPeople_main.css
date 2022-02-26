@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* main */
+main {
+  /* height: 132vw; */
+  /* max-height: 504px;
+  min-height: 432px; */
+  /* background: powderblue; */
+}
+.row-first {
+  height: 39vw;
+  margin-bottom: 9vw;
+}
+.numPeople>.title {
+  font-size: 4.5vw;
+  line-height: 5.5vw;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 3.5vw;
+}
+.numPeople>.box {
+  height: 30vw;
+  background: rgba(243, 243, 243, 0.6);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: relative;
+  overflow: auto;
+  padding: 0 6vw 0;
+}
+.numPeople .top {
+  font-size: 3vw;
+  line-height: 3.5vw;
+  margin: 6vw 0 5vw;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.7);
+}
+.numPeople .main {
+  height: 10vw;
+  font-size: 3vw;
+  line-height: 3.5vw;
+  margin: 0 0 5vw;
+  font-weight: 800;
+}
+.number {
+  font-size: 8vw;
+  line-height: 10vw;
+}
+.numPeopleImg {
+  position: absolute;
+  right: 8vw;
+  top: 3.5vw;
+  /* width: 30vw;
+  height: auto; */
+  font-size: 17vw;
+  color: #5F92F2;
+}
+
+.row-second {
+  /* background: orange; */
+  height: 69vw;
+}
+.partition {
+  height: 56vw;
+  /* background: lightgreen; */
+}
+.detail {
+
+}
+.row-second .title {
+  height: 5.5vw;
+  font-size: 4.5vw;
+  line-height: 5.5vw;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 3.5vw;
+}
+.row-second .box {
+  height: 60vw;
+  background: rgba(243, 243, 243, 0.6);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: center;
+  padding: 0 4.5vw;
+  overflow: auto;
+  color: rgba(0, 0, 0, 0.7);
+}
+.detail .top {
+  font-size: 4.6vw;
+  line-height: 6vw;
+  font-weight: 800;
+  margin: 4vw 0 3vw;
+}
+.detail .main {
+  text-align: left;
+  font-size: 3vw;
+  line-height: 5vw;
+  margin-bottom: 2vw;
+  font-weight: 800;
+}
+.detail ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.detail i {
+  color: #5F92F2;
+  font-size: 2vw;
+  line-height: 3.5vw;
+  vertical-align: middle;
+}
+.detail hr {
+  color: rgba(0, 0, 0, 0.1);
+  margin: 0 0 2vw;
+  border: none;
+  height: 2px;
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  background: rgba(0, 0, 0, 0.1);
+}
+.emphasize {
+  color: black;
+}
