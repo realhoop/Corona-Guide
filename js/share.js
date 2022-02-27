@@ -25,9 +25,9 @@ function shareKakao() {
     }
   });
 }
-function snsShare(title, url){
+function snsShare(){
   if(navigator.share){
-    navigator.share({title: "코로나 가이드 | 방역지침 한눈에 보기", url: ""});
+    navigator.share({});
   }
   else alert('지원하지 않는 브라우저입니다.');
 }
