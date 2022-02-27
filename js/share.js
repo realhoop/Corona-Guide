@@ -25,9 +25,9 @@ function shareKakao() {
     }
   });
 }
-function snsShare(){
+function snsShare(title, url){
   if(navigator.share){
-    navigator.share({title: "코로나 가이드 | 방역지침 한눈에 보기", url: "https://realhoop.github.io/Corona-Guide"});
+    navigator.share({title: "코로나 가이드 | 방역지침 한눈에 보기", url: "www.realhoop.github.io/Corona-Guide"});
   }
   else alert('지원하지 않는 브라우저입니다.');
 }
