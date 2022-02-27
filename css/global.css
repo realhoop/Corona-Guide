@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&family=Roboto:wght@700&display=swap');
 
 html {
   font-family: 'Noto Sans KR', sans-serif;
@@ -110,7 +110,7 @@ label, input {
   left:0;
   width:100vw;
   height:100%;
-  background:rgba(0,0,0,.2);
+  background:rgba(0,0,0,.6);
   transition:all .35s;
   opacity:0;
   visibility:hidden;
@@ -125,7 +125,7 @@ input#sidebar:checked ~ .background {
 }
 #menuButton {
   float: right;
-  margin: 5vw 6vw 0 0;
+  margin: 3vw 6vw 0 0;
   width: 5.7vw;
   height: 5.7vw;
 }
