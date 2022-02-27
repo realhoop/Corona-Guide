@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/*version*/
+#version {
+  height: 10vw;
+  background: #F3F3F3;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  padding: 1vw;
+  margin-bottom: 5vw;
+
+}
+#soonBox, #nowBox {
+  height: 10vw;
+  width: 43vw;
+  border-radius: 11px;
+  float: left;
+}
+#now, #soon {
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  line-height: 10vw;
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: #969696;
+}
+.tabMenu {
+  height: inherit;
+}
+.tabCon1,.tabCon2 {
+  display:none;
+  height: inherit;
+}
+input{
+  display:none;
+}
+input[id = "tabMenu1"]:checked ~ #version #now{
+  color: #FFFFFF;
+}
+input[id = "tabMenu1"]:checked ~ #version #nowBox{
+  background: #5F92F2;
+}
+input[id = "tabMenu1"]:checked ~ main > .tabMenu > .tabCon1{
+  display:block;
+}
+input[id = "tabMenu2"]:checked ~ #version #soon{
+  color: #FFFFFF;
+}
+input[id = "tabMenu2"]:checked ~ #version #soonBox{
+  background: #5F92F2;
+}
+input[id = "tabMenu2"]:checked ~ main > .tabMenu > .tabCon2{
+  display:block;
+}
