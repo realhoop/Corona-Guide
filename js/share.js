@@ -25,7 +25,7 @@ function shareKakao() {
     }
   });
 }
-function snsShare(title){
+function snsShare(title, url){
   if(navigator.share){
     navigator.share({title: "코로나 가이드", url: ""});
   }
