@@ -8,5 +8,5 @@ function copyToClipboard(val) {
   }
   function copy(link) {
     copyToClipboard(link);
-    alert('Copied!');
+    alert('복사되었습니다.');
   }
