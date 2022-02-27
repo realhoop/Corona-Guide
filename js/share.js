@@ -27,7 +27,7 @@ function shareKakao() {
 }
 function snsShare(title, url){
   if(navigator.share){
-    navigator.share({title: "코로나 가이드", url: ""});
+    navigator.share({title: "코로나 가이드", url: "haha"});
   }
   else alert('지원하지 않는 브라우저입니다.');
 }
